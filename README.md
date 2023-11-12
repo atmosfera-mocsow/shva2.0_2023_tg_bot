@@ -14,5 +14,5 @@ pip install pyTelegramBotAPI
 4. Запустить бота
 
 ```bash
-python name.py
+python main.py
 ```
