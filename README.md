@@ -4,7 +4,7 @@
 "${SHELL}" <(curl -L micro.mamba.pm/install.sh)
 # открыть новый терминал после этого
 
-micromamba env create -f env.yml
+micromamba env create -f env.yml -y
 micromamba activate new-env
 pip install pyTelegramBotAPI
 ```
