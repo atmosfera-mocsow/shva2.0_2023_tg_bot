@@ -46,5 +46,5 @@ def start_message(message):
 #     print(f"{message=}")
 #     bot.send_message(message.chat.id, f"Ого,ты выбрал {message=}")
 
-
+print("start bot")
 bot.infinity_polling()
